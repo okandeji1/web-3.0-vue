@@ -50,7 +50,7 @@
   </nav>
 </template>
 
-<script>
+<script lang="ts">
 import { mapGetters, mapMutations } from "vuex";
 const navItem = ["Market", "Exchange", "Tutorials", "Wallets"];
 

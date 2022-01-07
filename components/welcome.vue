@@ -9,16 +9,15 @@
             Explore the crypto world. Buy and sell cryptocurrencies easily on
             Krypto.
           </p>
-          <!-- {!currentAccount && ( -->
             <button
+            v-if="!getCurrentAccount"
               type="button"
-              onClick={connectWallet}
+              @click="connectWallet"
               class="flex flex-row justify-center items-center my-5 bg-[#2952e3] p-3 rounded-full cursor-pointer hover:bg-[#2546bd]">
               <p class="text-white text-base font-semibold">
                 Connect Wallet
               </p>
             </button>
-          <!-- )} -->
           <div class="grid sm:grid-cols-3 grid-cols-2 w-full mt-10">
             <div class="rounded-tl-2xl" :class="commonStyles">Reliability</div>
             <div :class="commonStyles">Security</div>
@@ -38,7 +37,7 @@
                 <svg-icon name="info-circle" class="w-6 h-6 fill-current" color="#fff" />
               </div>
               <div>
-                <p class="text-white font-light text-sm">{shortenAddress(currentAccount)}</p>
+                <p class="text-white font-light text-sm">{{shortenAddress(getCurrentAccount)}}</p>
                 <p class="text-white font-semibold text-lg mt-1">
                   Ethereum
                 </p>
@@ -71,26 +70,34 @@
               :handleChange="handleChange"
             />
             <div class="h-[1px] w-full bg-gray-400 my-2" />
-            <!-- {isLoading ? (
-              <lazy-crypt-loader />
-            ) : ( -->
+              <lazy-crypt-loader v-if="getIsLoading" />
               <button
+              v-else
                 type="button"
                 class="text-white w-full mt-2 border-[1px] p-2 border-[#3d4f7c] rounded-full cursor-pointer"
-                onClick={handleSubmit}>
+                @click="handleSubmit">
                 Send Now
               </button>
-            <!-- )} -->
           </div>
         </div>
       </div>
     </div>
 </template>
 <script lang="ts">
+import {shortenAddress} from '../utils/utility'
+import { mapGetters, mapMutations, mapActions } from "vuex";
+
 
 const commonStyles =
   "min-h-[70px] sm:px-0 px-2 sm:min-w-[120px] flex justify-center items-center border-[0.5px] border-gray-400 text-sm font-light text-white";
 export default {
+
+  computed: {
+    ...mapGetters({
+      getCurrentAccount: "getCurrentAccount",
+      getIsLoading: "settings/getIsLoading",
+    }),
+  },
 
   data() {
     return {
@@ -99,10 +106,17 @@ export default {
   },
 
   methods: {
+    shortenAddress,
 
     handleChange (){
       console.log('e')
-    }
+    },
+
+    handleSubmit () {},
+
+    ...mapActions({
+      connectWallet: 'connectWallet'
+    })
   }
 }
 </script>
