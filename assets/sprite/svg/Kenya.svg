@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="20" viewBox="0 0 28 20">
+  <defs>
+    <path id="kenya-a" d="M3.33333333,14 C4.66666667,14 6.66666667,11.3834215 6.66666667,7.33333333 C6.66666667,3.28324517 4.66666667,0.666666667 3.33333333,0.666666667 C2,0.666666667 0,3.28324517 0,7.33333333 C0,11.3834215 2,14 3.33333333,14 Z"/>
+    <linearGradient id="kenya-e" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <path id="kenya-d" d="M3.33333333,9.33333333 C2.9651435,9.33333333 2.66666667,8.43790283 2.66666667,7.33333333 C2.66666667,6.22876383 2.9651435,5.33333333 3.33333333,5.33333333 C3.70152317,5.33333333 4,6.22876383 4,7.33333333 C4,8.43790283 3.70152317,9.33333333 3.33333333,9.33333333 Z M3.33333333,5.33333333 C2.9651435,5.33333333 2.66666667,4.139426 2.66666667,2.66666667 C2.66666667,1.19390733 2.9651435,0 3.33333333,0 C3.70152317,0 4,1.19390733 4,2.66666667 C4,4.139426 3.70152317,5.33333333 3.33333333,5.33333333 Z M3.33333333,14.6666667 C2.9651435,14.6666667 2.66666667,13.4727593 2.66666667,12 C2.66666667,10.5272407 2.9651435,9.33333333 3.33333333,9.33333333 C3.70152317,9.33333333 4,10.5272407 4,12 C4,13.4727593 3.70152317,14.6666667 3.33333333,14.6666667 Z"/>
+    <filter id="kenya-c" width="175%" height="113.6%" x="-37.5%" y="-3.4%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect width="28" height="5.333" fill="#262626"/>
+    <rect width="28" height="5.333" y="14.667" fill="#018301"/>
+    <rect width="28" height="9.333" y="5.333" fill="#FFF"/>
+    <rect width="28" height="6.667" y="6.667" fill="#DC0808"/>
+    <g transform="translate(10.667 2.667)">
+      <mask id="kenya-b" fill="#fff">
+        <use xlink:href="#kenya-a"/>
+      </mask>
+      <use fill="#BC0000" xlink:href="#kenya-a"/>
+      <ellipse cx="-2" cy="7.333" fill="#262626" mask="url(#kenya-b)" rx="3.333" ry="7.333"/>
+      <ellipse cx="8.667" cy="7.333" fill="#262626" mask="url(#kenya-b)" rx="3.333" ry="7.333"/>
+      <g mask="url(#kenya-b)">
+        <use fill="#000" filter="url(#kenya-c)" xlink:href="#kenya-d"/>
+        <use fill="url(#kenya-e)" xlink:href="#kenya-d"/>
+      </g>
+    </g>
+  </g>
+</svg>

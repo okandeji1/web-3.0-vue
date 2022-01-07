@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="20" viewBox="0 0 28 20">
+  <defs>
+    <linearGradient id="cameroon-a" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFDC44"/>
+      <stop offset="100%" stop-color="#FDD216"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect width="14.667" height="20" x="13.333" fill="url(#cameroon-a)"/>
+    <rect width="9.333" height="20" fill="#059170"/>
+    <rect width="9.333" height="20" x="9.333" fill="#E21A30"/>
+    <rect width="9.333" height="20" x="18.667" fill="#FFDC44"/>
+    <polygon fill="#FFDC42" points="14 11.3 12.041 12.697 12.764 10.402 10.83 8.97 13.236 8.948 14 6.667 14.764 8.948 17.17 8.97 15.236 10.402 15.959 12.697"/>
+  </g>
+</svg>

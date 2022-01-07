@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:serif="http://www.serif.com/" width="100%" height="100%" viewBox="0 0 16 13" version="1.1" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-35,-606)">
+        <path id="ic_personal_data" d="M43,608.013L41.4,606L36.6,606C35.72,606 35.008,606.731 35.008,607.625L35,617.375C35,618.269 35.72,619 36.6,619L49.4,619C50.28,619 51,618.269 51,617.375L51,609.638C51,608.744 50.28,608.013 49.4,608.013L43,608.013ZM45.5,614C47.997,614 48.999,615.371 48.999,617L42,617C42,615.371 43.002,614 45.5,614ZM47,611.5C47,612.325 46.325,613 45.5,613C44.675,613 44,612.325 44,611.5C44,610.675 44.675,610 45.5,610C46.325,610 47,610.675 47,611.5Z"/>
+    </g>
+<style type="text/css">
+	path{fill:#293141;}
+</style>
+<div xmlns="" id="divScriptsUsed" style="display: none"/><script xmlns="" id="globalVarsDetection" src="chrome-extension://cmkdbmfndkfgebldhnkbfhlneefdaaip/js/wrs_env.js"/></svg>

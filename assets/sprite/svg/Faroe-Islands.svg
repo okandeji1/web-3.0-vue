@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="20" viewBox="0 0 28 20">
+  <defs>
+    <rect id="faroe-islands-a" width="28" height="20"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#FFF" xlink:href="#faroe-islands-a"/>
+    <polygon fill="#0062BC" points="0 12 8 12 8 20 12 20 12 12 28 12 28 8 12 8 12 0 8 0 8 8 0 8"/>
+    <polygon fill="#F14247" points="0 10.979 9.067 10.979 9.067 20 11.047 20 11.047 10.979 28 10.979 28 9.014 11.047 9.014 11.047 0 9.067 0 9.067 9.014 0 9.014"/>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="20" viewBox="0 0 28 20">
+  <defs>
+    <circle id="india-a" cx="14" cy="10" r="2"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect width="28" height="6.667" y="6.667" fill="#FFF"/>
+    <rect width="28" height="6.667" fill="#FFA44A"/>
+    <rect width="28" height="6.667" y="13.333" fill="#1A9F0B"/>
+    <use fill="#181A93" fill-opacity=".15" xlink:href="#india-a"/>
+    <circle cx="14" cy="10" r="2.333" stroke="#181A93" stroke-width=".667"/>
+    <circle cx="14" cy="10" r="1" fill="#181A93"/>
+  </g>
+</svg>

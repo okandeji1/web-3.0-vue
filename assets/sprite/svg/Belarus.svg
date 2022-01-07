@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="20" viewBox="0 0 28 20">
+  <defs>
+    <path id="belarus-a" d="M4,17 L4,20 L0,20 L0,0 L4,0 L4,3 L3.33333333,4 L4,5 L4,7 L3.33333333,8 L4,9 L4,11 L3.33333333,12 L4,13 L4,15 L3.33333333,16 L4,17 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect width="28" height="13.333" fill="#E54252"/>
+    <rect width="28" height="6.667" y="13.333" fill="#5CBE6B"/>
+    <mask id="belarus-b" fill="#fff">
+      <use xlink:href="#belarus-a"/>
+    </mask>
+    <use fill="#FFF" xlink:href="#belarus-a"/>
+    <path fill="#E54252" d="M-2 4L-.666666667 2 .666666667 4-.666666667 6-2 4zM-2 8L-.666666667 6 .666666667 8-.666666667 10-2 8zM-2 12L-.666666667 10 .666666667 12-.666666667 14-2 12zM-2 16L-.666666667 14 .666666667 16-.666666667 18-2 16zM.666666667 2L2 0 3.33333333 2 2 4 .666666667 2zM.666666667 6L2 4 3.33333333 6 2 8 .666666667 6zM.666666667 10L2 8 3.33333333 10 2 12 .666666667 10zM.666666667 14L2 12 3.33333333 14 2 16 .666666667 14zM.666666667 18L2 16 3.33333333 18 2 20 .666666667 18z" mask="url(#belarus-b)"/>
+  </g>
+</svg>

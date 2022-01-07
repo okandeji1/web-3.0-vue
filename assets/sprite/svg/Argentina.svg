@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="20" viewBox="0 0 28 20">
+  <defs>
+    <circle id="argentina-a" cx="14" cy="10" r="2"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect width="28" height="6.667" fill="#88BBE8"/>
+    <rect width="28" height="6.667" y="13.333" fill="#88BBE8"/>
+    <rect width="28" height="6.667" y="6.667" fill="#FFF"/>
+    <use fill="#F4B32E" xlink:href="#argentina-a"/>
+    <circle cx="14" cy="10" r="2.333" stroke="#DB7A2C" stroke-width=".667"/>
+  </g>
+</svg>

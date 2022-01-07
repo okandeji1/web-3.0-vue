@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="20" viewBox="0 0 28 20">
+  <defs>
+    <linearGradient id="el-salvador-a" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#3C7839"/>
+      <stop offset="100%" stop-color="#31642E"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect width="28" height="6.667" fill="#1B57C4"/>
+    <rect width="28" height="6.667" y="13.333" fill="#1B57C4"/>
+    <rect width="28" height="6.667" y="6.667" fill="#FFF"/>
+    <path fill="url(#el-salvador-a)" d="M12.3999479,7.86651047 L13.3333333,10.6666667 L14.6666667,10.6666667 L15.6000521,7.86651047 C16.2477274,8.35302292 16.6666667,9.1275872 16.6666667,10 C16.6666667,11.4727593 15.4727593,12.6666667 14,12.6666667 C12.5272407,12.6666667 11.3333333,11.4727593 11.3333333,10 C11.3333333,9.1275872 11.7522726,8.35302292 12.3999479,7.86651047 Z"/>
+    <polygon fill="#F9C92E" points="14 7.333 14.667 10.667 13.333 10.667"/>
+  </g>
+</svg>

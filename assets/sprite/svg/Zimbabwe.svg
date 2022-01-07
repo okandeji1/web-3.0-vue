@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="20" viewBox="0 0 28 20">
+  <defs>
+    <rect id="zimbabwe-a" width="13" height="20"/>
+    <polygon id="zimbabwe-c" points="-1.333 20 -1.333 0 0 0 13.333 10 0 20"/>
+    <linearGradient id="zimbabwe-d" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#F12F1F"/>
+      <stop offset="100%" stop-color="#DE2010"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect width="28" height="20" fill="#FFF"/>
+    <rect width="28" height="20" fill="#FFF"/>
+    <rect width="28" height="2.667" fill="#369D0C"/>
+    <rect width="28" height="2.667" y="17.333" fill="#369D0C"/>
+    <rect width="28" height="2.667" y="5.333" fill="#369D0C"/>
+    <rect width="28" height="2.667" y="12" fill="#369D0C"/>
+    <rect width="28" height="4" y="8" fill="#262626"/>
+    <rect width="28" height="2.667" y="2.667" fill="#FFD40E"/>
+    <rect width="28" height="2.667" y="14.667" fill="#FFD40E"/>
+    <mask id="zimbabwe-b" fill="#fff">
+      <use xlink:href="#zimbabwe-a"/>
+    </mask>
+    <g mask="url(#zimbabwe-b)">
+      <use fill="#FFF" xlink:href="#zimbabwe-c"/>
+      <path stroke="#262626" stroke-width="1.333" d="M-0.666666667,19.3333333 L-0.222222222,19.3333333 L12.2222222,10 L-0.222222222,0.666666667 L-0.666666667,0.666666667 L-0.666666667,19.3333333 Z"/>
+    </g>
+    <polygon fill="url(#zimbabwe-d)" points="4 11.3 2.041 12.697 2.764 10.402 .83 8.97 3.236 8.948 4 6.667 4.764 8.948 7.17 8.97 5.236 10.402 5.959 12.697"/>
+  </g>
+</svg>
