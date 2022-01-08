@@ -33,7 +33,7 @@
         </p>
       </div>
       <img
-        :src="transaction.gifUrl || transaction.url"
+        :src="getGifUrl || transaction.url"
         alt="gif"
         class="w-full h-64 2x:h-96 rounded-md shadow-lg object-cover"
       />
@@ -45,6 +45,8 @@
 </template>
 
 <script>
+import { mapGetters, mapActions } from "vuex";
+
 import { shortenAddress } from "../utils/utility";
 
 export default {
@@ -54,12 +56,26 @@ export default {
     },
   },
 
+  computed: {
+    ...mapGetters({
+      getGifUrl: "getGifUrl",
+    }),
+  },
+
   data() {
     return {};
   },
 
   methods: {
     shortenAddress,
+
+    ...mapActions({
+      fetchGifUrl: 'fetchGifUrl'
+    })
   },
+
+  created() {
+    this.fetchGifUrl(this.transaction.keyword);
+  }
 };
 </script>

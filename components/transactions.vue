@@ -9,16 +9,14 @@
           </h3>
 
         <div class="flex flex-wrap justify-center items-center mt-10">
-          <!-- {transactions.reverse().map((transaction, i) => ( -->
             <lazy-crypt-transaction-card v-for="(transaction, key) in getTransactions" :key="key" :transaction="transaction" />
-          <!-- ))} -->
         </div>
       </div>
     </div>
 </template>
 
 <script lang="ts">
-import { mapGetters, mapMutations, mapActions } from "vuex";
+import { mapGetters, mapActions } from "vuex";
 
 
 const commonStyles =
@@ -39,12 +37,6 @@ export default {
   },
 
   methods: {
-
-    handleChange (){
-      console.log('e')
-    },
-
-    handleSubmit () {},
 
     ...mapActions({
       connectWallet: 'connectWallet'
