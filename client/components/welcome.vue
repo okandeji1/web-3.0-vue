@@ -56,7 +56,7 @@
             </div>
             <div>
               <p class="text-white font-light text-sm">
-                {{ shortenAddress(getCurrentAccount) }}
+                {{ shortenAddress(getCurrentAccount || '...') }}
               </p>
               <p class="text-white font-semibold text-lg mt-1">Ethereum</p>
             </div>
